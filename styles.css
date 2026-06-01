@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+body{
+            margin:0;
+            background-color:#111;
+            color:white;
+            font-family:Arial, sans-serif;
+            text-align:center;
+        }
+
+        .moviePic{
+            height:350px;
+	        width: 600px;
+            opacity:0.9;
+            margin-top:20px;
+            border-radius:10px;
+            box-shadow:0 4px 15px rgba(255,255,255,0.2);
+        }
+
+        .movieDetail{
+            position:relative;
+            top:20px;
+            width:70%;
+            margin:auto;
+            text-align:center;
+            font-size:20px;
+            line-height:1.6;
+        }
